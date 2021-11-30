@@ -1,0 +1,39 @@
+{
+  "name": "@examples-ui-mobile/storybook",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "cross-env start-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "6.4.0",
+    "@storybook/addon-essentials": "6.4.0",
+    "@storybook/addon-links": "6.4.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "6.4.0",
+    "@storybook/manager-webpack5": "6.4.0",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "6.4.0",
+    "@tarojs/cli": "3.3.15",
+    "@tarojs/components": "3.3.15",
+    "@tarojs/mini-runner": "3.3.15",
+    "@tarojs/react": "3.3.15",
+    "@tarojs/runtime": "3.3.15",
+    "@tarojs/taro": "3.3.15",
+    "@tarojs/webpack-runner": "3.3.15",
+    "@types/react": "^17.0.37",
+    "babel-preset-taro": "3.3.15",
+    "cross-env": "^7.0.3",
+    "eslint-config-taro": "3.3.15",
+    "postcss": "^8.4.4",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.0.1",
+    "prettier": "^2.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4"
+  }
+}
